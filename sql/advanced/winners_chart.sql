@@ -15,3 +15,4 @@ FROM (
 WHERE ranking <= 3
 GROUP BY event_id
 ORDER BY event_id ASC;
+
